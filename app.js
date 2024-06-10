@@ -1,6 +1,6 @@
 const http = require('http');
-const hostname = '0.0.0.0'; // изменены данные
-const port = 3030; // изменены данные 
+const hostname = '0.0.0.0'; 
+const port = 3030; 
 const server = http.createServer((req, res) => {
 res.statusCode = 200;
 res.setHeader('Content-Type', 'text/plain');
