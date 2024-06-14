@@ -9,7 +9,7 @@ const MongoClient = require("mongodb").MongoClient;
 const url = "mongodb://127.0.0.1:27017/";
 const mongoClient = new MongoClient(url);
 count = 0;
-const collection = db.collection("users");
+// const collection = db.collection("users");
 async function run() {
 try {
 // Подключаемся к серверу
